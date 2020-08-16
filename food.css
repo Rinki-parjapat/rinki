@@ -1,0 +1,420 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html{ background-color: white;
+color: black;
+font-family: 'Markazi Text', serif;
+
+font-weight: 400;
+font-size: 20px;}
+.row1{
+    max-width: 1100px;
+    margin: auto 0;
+    
+}
+section{
+    padding: 50px 0;
+
+}
+ .box{ padding: 1%;}
+
+
+/* --------------header--------------- */
+header{ background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+   url("https://images.unsplash.com/photo-1504113888839-1c8eb50233d3?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height:100vh;
+    
+}
+
+
+
+.hero-text-box{position: absolute;
+    width: 1100px;
+    top: 20%;
+    left: 15%;
+   
+
+}
+h1,h2,h3,h4{
+font-weight: 300;
+text-transform: uppercase;
+
+
+}
+h1{margin-top: 0;
+    margin-bottom: 20px;
+    color: rgb(243, 230, 234);
+    font-size: 40px;
+    word-spacing: 10px;
+    letter-spacing: 1px;
+
+}
+h2{
+    text-align: center;
+    margin-bottom: 40px;
+     font-size: 180%;
+     letter-spacing: 1px; 
+     color:  rgb(231, 146, 231);
+   
+
+}
+h2:after{ display: block; 
+height: 2px ;
+ background-color:   orange ;
+content: " ";
+ width: 150px;
+  margin: 0 auto;
+  margin-top: 20px;}
+  h3{
+      font-size: 120%;
+      margin-bottom: 10px;
+      color:  rgb(231, 146, 231);
+  }
+  
+h4{
+    text-align: center;
+ 
+}
+  
+
+
+/* --------------pragraph--------------- */
+
+
+.long-copy{
+    line-height:140% ;
+    width:72% ;
+    margin:15%;
+    margin-bottom: 60px;
+    margin-top: 50px;
+   color:rgb(207, 138, 8) ;
+  text-align: justify;}
+  .box p{
+      font-size: 80%;
+      line-height: 140%;
+      text-align: justify;
+      color:rgb(207, 138, 8);
+  }
+
+
+
+/* --------------btn--------------- */
+.btn:link,.btn:visited,input[type=submit]{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 400;
+    text-decoration: none;
+    border-radius:100px ; }
+    .btn:hover,.btn:active,input[type=submit]:hover,input[type=submit]:active{
+        background-color: peru;
+    }
+    
+    .btn-full:link,.btn-full:visited,input[type=submit]
+    {background-color:rgb(214, 148, 82) ;
+    border: 1px solid rgb(206, 159, 74);
+    color: white; margin-right: 15px;}
+
+
+    .btn-full:hover, .btn-full:active {
+        background-color: peru;
+    }
+    
+.btn-ghost:link,.btn-ghost:visited
+{border: 1px solid orange;
+    color:white }
+
+
+    .btn-ghost:hover ,.btn-ghost:hover{
+        background-color: peru;
+    }
+    /* --------------nav--------------- */
+    .logo{
+        height:100px ;
+        width: auto;
+        float: left;
+        margin-top: 20px;
+    }
+
+    .main-nav{
+        float:right;
+        list-style: none;
+        margin-top: 20px;
+    }
+    .main-nav li{
+        display: inline-block;
+        margin-left: 50px;
+    }
+    .main-nav li a:link,.main-nav li a:visited{
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 100%;
+        padding: 10px 0;
+    }
+    .main-nav li a:hover,
+    .main-nav li a:active{
+
+        border-bottom: 2px solid orange;}
+
+
+
+        /* --------------icons--------------- */
+
+            
+        .icon-big{
+            font-size: 400%;
+            display: block;
+            margin-bottom: 20px;
+            color: orange;
+        }
+        .icon-small{
+            display: inline-block;
+            width: 30px;
+            color: orange; 
+        }
+ /* --------------photos-------------- */
+ .section-meal{
+     padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+ }
+ .meal-photo{
+     margin: 0; overflow: hidden;
+     background-color: black;
+    
+
+ }
+ .meal-photo img{
+     opacity: 0.8;
+     width: 300px;
+     transform: scale(1.15);
+     transition: transform 0.5s, opacity 0.5s;
+     
+    
+
+ }
+ .meal-photo img:hover{transform: scale(1.05);
+    opacity: 1;
+  
+    
+   
+
+ }
+ /* ------------photos---------------- */
+ .section-steps{
+    background-color:  #e6e6e6;}
+ .step-box:first-child{
+     padding-left: 20px;  text-align: right;
+     margin-top: 30px;  
+ }
+ .step-box:last-child{ padding-right: 3%;color: rgb(214, 148, 82);
+    margin-top: 30px;}
+    .phone-image{ height: 400px; margin-right: 50px; }
+
+    .work-steps h5{color: wheat;
+    border: solid 2px orange;
+display: inline-block;
+border-radius: 50%;
+height: 50px;
+width: 50px; 
+text-align: center;
+padding: 5px;
+float: left;
+margin-right: 30px; }
+.work-steps h5:hover{background-color:orange ;
+    
+    
+}
+.btn-aap img{
+    width: auto;
+    height: 50px;
+    margin-left: 20px;
+}
+ /* ------------city---------------- */
+ 
+ 
+
+ 
+ .box img{
+     width: 100%;
+     height:auto ;
+     margin-bottom: 30px;
+     box-shadow: 2px 2px 10px ; transition: 0.5s;
+     
+    
+ }
+ .box img:hover{transform: scale(1.05);opacity: 1s;}
+ .city-details a:link,.city-details a:visited{
+     color: orange;
+     text-decoration: none;
+     border-bottom:  solid 1px  orange;
+     padding-bottom: 2px;
+     transition: border-bottom 0.5s,color 0.5s;
+
+ }
+ .city-details a:hover,.city-details a:active{
+     color: black;
+     border-bottom: 1px solid transparent; }
+
+
+   /* ------------customer---------------- */
+ .section-customer{
+     background-image: linear-gradient(rgb(0,0,0,0.8),rgb(0,0,0,0.8)),
+     url("https://images.unsplash.com/photo-1498579809087-ef1e558fd1da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+ background-color: cover;
+color:white; background-attachment: fixed;}
+blockquote{
+    padding: 2px;
+    font-style: italic;
+       
+}
+cite{
+    font-size: 90%;
+     margin-top: 30px;
+     display: block; text-align: center;
+     box-shadow: 2px 2px 10px ; transition: 0.5s;
+}
+cite img{
+    height: 100px;
+    border-radius: 50%;
+}
+cite:hover{transform: scale(1.05);opacity: 1s
+    
+}
+
+
+
+/* 
+blockquote:before{content:"\0022"; 
+font-size: 300%;
+} */
+
+
+        /* --------------plan--------------- */
+        .section-plan{
+            background-color:#ebebe0;
+    
+        }
+        .plan-box{
+            background-color:rgb(231, 231, 233);
+            border-radius: 10px;
+            width: 90%;
+            margin-left: 5%;
+            box-shadow: 0 10px 5px #efefef;
+            
+        }
+        .plan-box div{
+            padding: 15px;
+            border-bottom: 2px solid rgb(239, 239, 252);
+        }
+        .plan-price{
+            margin-bottom: 10px;
+            font-size: 250%;
+            font-weight: 400;
+        
+        }
+        .plan-price span{
+            font-size: 40%;
+            font-weight: 400;
+            color: orange;
+            margin-bottom: 10px;
+        }
+
+
+
+        .plan-price-meal{
+            font-size: 80%;
+        }
+        .plan-box ul{
+            list-style: none;
+        }
+        
+        .plan-box div:last-child{
+            text-align: center;
+        }
+ 
+        .plan-box:hover{
+            transform: scale(0.5s);
+        }
+ 
+ 
+ /* --------------contact--------------- */
+     .contact-form{
+         width: 60%;
+          margin: 0 auto;
+     }
+    input[type=text],
+     input[type=email] ,
+     select,
+     textarea{width: 100%;
+         padding: 7px; border-radius: 4px;
+         border: 1px solid #ccc;
+
+
+     }
+     
+     textarea{
+         height: 100px;
+     }
+     input[type=submit]:focus{
+         outline:none;
+     }
+      /* --------------footer--------------- */
+      hr{
+        background-color: white;
+        
+      }
+      footer{
+          background-color:rgb(71, 67, 67);
+          margin-top: 50px;
+          padding: 30px;
+      }
+      .footer-nav{
+          list-style: none;
+          float: left;
+      }
+      .social-nav{
+          list-style: none; 
+          float:right;
+      }
+      .footer-nav li,
+      .social-nav li{
+          display: inline-block;
+          margin-right: 20px;
+         
+      }
+      .footer-nav li a:link , 
+      .footer-nav li a:visited,
+        .social-nav li a:link,  
+      .social-nav li a:visited{ 
+          text-decoration: none;
+          color: slategrey;
+      }
+      .footer-nav li a:hover , 
+      .footer-nav li a:active{color: rgb(194, 193, 193);
+
+      }
+      footer p{
+          color:  rgb(194, 193, 193);
+          text-align: center;
+          font-size:90%;
+          margin-top: 20px;
+      }
+      .facebook:hover{
+          color: #3b5998;
+      }
+      .instagram:hover{
+          color: #f46f30;
+      }
+      .twitter:hover{
+          color: rgb( 29, 161, 242);
+      }
+      .google:hover{
+          color: #fbbc05;
+      }
